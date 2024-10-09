@@ -1,0 +1,55 @@
+.post-card {
+    max-width: 20rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.post-card-content {
+    margin-bottom: 1rem;
+}
+
+.post-card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.post-card-description {
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+
+.post-card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-button, .secondary-button {
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.primary-button {
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #0056b3;
+}
+
+.secondary-button {
+    background-color: #6c757d;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-button:hover {
+    background-color: #5a6268;
+}
